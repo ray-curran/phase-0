@@ -1,0 +1,11 @@
+#My Website 1 Reflection
+
+http://ray-curran.github.io
+
+To create a repository on github, log on to your profile and look for a + sign with a dropdown arrow on the top right of the screen. Click this button, and select "new repository". Give your repository a name and an optional description, select whether it's public or private, and give it an optional license. Then, click "Create Repository". This just created a repository on github, so now you'll need to clone it onto your computer. In order to do this, first open the repository on Github and copy the clone url you see on the right side of the screen. Next, open the terminal and navigate to the location where you'd like your repository to reside on your computer. Once there, type "git clone clone_url_you_copied". 
+
+Open source is sharing the source code for a program for free and allowing anyone to access it or edit it to their liking. So if they want to add a new button or change the functioning (and have the knowledge/ability to do so), they can. Someone could also make changes and then try to convince the original developer to work that into their source code so others can access new functions as well. 
+
+Personally, open source sounds great to me starting off. Especially when I find a piece of open source code that I can understand and start to see how it all works together, this will probably be exciting. Licensing seems to work pretty nicely in an open source coding world. Rather than giving up full control or trying to keep all control, it gives you a nice middle ground. You will still be listed as the creator but other will be able to contribute or use your code without you telling them it's alright one by one. 
+
+During this challenge I got a lot more comfortable with the pull/push requests and how it fits together between git and Github. I tried each process a couple times and was able to do it without notes or referencing the videos, which was pretty exciting for week 1. I had a little trouble understanding licenses at first, so had to do a little more researching to help it sink in. 
