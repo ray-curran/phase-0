@@ -3,6 +3,7 @@ Site Map:
 
 * What are the 6 Phases of Web Design?
 &nbsp;
+
 1. Information Gathering - this stage entails finding out exactly what the site should include and who the directed audience is. You will also want to know the purpose and goals of the site. This would involve talking to the client directly to find out what their wish or feature list is. 
 2. Planning - in this stage, you should create a site map so you aren't finding new requirements as you work. You can use different tools like drawing or specialized web tools to create a diagram that shows how the website flows. 
 3. Design - here you should create a wireframe and get a rough idea of what the site looks like. There are several ways to do this, from putting it on paper to having an interactive example for the client to see. 
