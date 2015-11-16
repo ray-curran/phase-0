@@ -1,5 +1,5 @@
 Site Map:
-![Site Map](/imgs/site-map.png)
+![Site Map](/week-2/imgs/site-map.png)
 
 * What are the 6 Phases of Web Design?
 1. Information Gathering - this stage entails finding out exactly what the site should include and who the directed audience is. You will also want to know the purpose and goals of the site. This would involve talking to the client directly to find out what their wish or feature list is. 
