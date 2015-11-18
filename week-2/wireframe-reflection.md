@@ -1,10 +1,10 @@
 # Wireframe Reflection  
   
 ## Index Page Wireframe
-![Site Map](/week-2/imgs/wireframe-index.png)  
+![Site Map](imgs/wireframe-index.png)  
   
 ## Blog Index Wireframe
-![Site Map](/week-2/imgs/wireframe-blog-index.png)  
+![Site Map](imgs/wireframe-blog-index.png)  
   
 * What is a wireframe?  
   A wireframe is like a basic roadmap of the site you're going to build. Rather then go into the design phase putting items on a page and then having to move them around as you realize something important was missed, wireframing has you visually lay out what elements will be on the page and where they will end up. 
