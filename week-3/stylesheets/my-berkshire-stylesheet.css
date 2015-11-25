@@ -1,3 +1,77 @@
 html {
-  background-color: red;
+  background-color: #ffffff;
+  color: #000080;
 }
+
+a {
+    color: #800080;
+    font-size: 16px;
+}
+
+a:visited {
+    color: #ff0000;
+}
+
+li {
+    font-size: 14px;
+    margin-left: 5em;
+    margin-bottom: 2.5em;
+}
+
+.column1of2, .column2of2 {
+    width: 42%;
+    float: left;
+}
+
+header > p {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+
+hr {
+	clear: both;
+}
+
+.centerme {
+     text-align: center;
+}
+
+.smal {
+	font-size: 12px;
+}
+
+.norm {
+	font-size: 16px;
+}
+
+span {
+	font-size: 30px;
+}
+
+section > p, section > p > a, footer > p {
+	font-size: 12px;
+}
+
+section > p {
+	margin-top: 0px;
+}
+
+/*
+- What is important to know when linking an external file (like a stylesheet) to an HTML file?
+	- I really had to understand what each of the tags in the link element meant (like rel, type, and href) before I knew what was going on. It's also really important to know where your css/html files are in relation to each other so you could link them appropriately. 
+
+- What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+	- Sometimes I'd make a more dramatic effect when first picking a property in CSS, just to make sure I knew what the property was doing. Then I'd scale it back to get it closer to what I wanted. It ended up being more difficult towards the end when I was getting a little more picky about how things looked.
+
+- What CSS did you use to modify the element style (like size, color, etc.)
+	- I used things like font-size, color, text-align, margin, padding, clear, font-weight, and a few others. I had to do a little experimenting with some to make sure I was using the correct ones without overusing them. 
+
+- Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+	- Yes, I used some classes. I chose some to select certain elements (like paragraphs or sections) that I couldn't individually select otherwise without picking up other unwanted elements. 
+
+- When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+	- I think mine was a little cleaner since it followed the best practiced of only putting style in the css file. The actual code base put a lot of styling in the html, which made it hard to parse through. This makes me understand why we put more in the CSS. 
+*/
