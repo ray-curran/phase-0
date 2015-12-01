@@ -10,10 +10,10 @@
   Integer division always rounds down to the next whole number. Float division doesn't round and gives the answer with decimals. I'd explain this to someone who doesn't know anything about programming by using the example of buying concert tickets. The answer that matters would be the lowest whole number, since you wouldn't be able to buy part of a ticket. 
 
 * Hours in a year  
-''' puts 24 * 365 '''  
+``` puts 24 * 365 ```  
 
 * Minutes in a decade  
-''' puts 24 * 60 * 365 * 10 '''  
+``` puts 24 * 60 * 365 * 10 ```  
 
 * Exercise Links  
 [Defining Variables](defining-variables.rb)  
