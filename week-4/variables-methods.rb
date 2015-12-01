@@ -36,6 +36,8 @@ puts "That's a good number, but what about something bigger and better, like " +
 - What was confusing about this material? What made sense?
 	Most of this made sense to me, especially the arithmetic portions. It's good to see how logical those pieces are. The most confusing part to me was when I had to print strings and integers together. I had to do a little guess and check through those parts before I fixed them. 
 
-
+- Define Method Solution: https://github.com/ray-curran/phase-0/blob/master/week-4/define-method/my_solution.rb
+- Formatted Address solution: https://github.com/ray-curran/phase-0/blob/master/week-4/address/my_solution.rb
+- Math Methods Solution: https://github.com/ray-curran/phase-0/blob/master/week-4/math/my_solution.rb
 
 =end
