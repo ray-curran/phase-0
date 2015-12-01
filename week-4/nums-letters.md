@@ -13,7 +13,7 @@
 ''' puts 24 * 365 '''  
 
 * Minutes in a decade  
-''' puts 24*60*365*10 '''  
+''' puts 24 * 60 * 365 * 10 '''  
 
 * Exercise Links  
 [Defining Variables](defining-variables.rb)  
