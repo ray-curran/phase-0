@@ -8,6 +8,6 @@ def good_guess?(argument)
   if argument == 42
     return true
   else
-	return false
+		return false
   end
 end
