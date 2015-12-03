@@ -1,0 +1,42 @@
+* {
+  font-family: Futura;
+  text-align:center;
+}
+
+header {
+  background-color: #D3D3D3;
+  border: 1px solid black;
+  padding-left:1em;
+  padding-right:1em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+div {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+      -webkit-column-rule: 1px solid lightblue; /* Chrome, Safari, Opera */
+    -moz-column-rule: 1px solid lightblue; /* Firefox */
+    column-rule: 1px solid lightblue;
+}
+
+.column-1, .column-2 {
+  padding: .5em;
+}
+
+footer {
+  background-color: #D3D3D3;
+  clear: both;
+  border: 1px solid black;
+  margin-top:1em;
+}
+
+img {
+  width:10%;
+  height:10%;
+} 
+
+li {
+  list-style-position: inside;
+}
