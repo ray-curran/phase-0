@@ -60,15 +60,6 @@ def separate_comma(number)
 	end
 end
 
-
-=end
-
-
-
-# 2. Refactored Solution
-
-
-
 def separate_comma(number)
 	newnum = number.to_s
 	if newnum.length >= 7
@@ -79,6 +70,25 @@ def separate_comma(number)
 	end
 	return newnum
 end
+=end
+
+
+
+# 2. Refactored Solution
+
+def separate_comma(number)
+  array = number.to_s.reverse.split("")
+  number_reversed = ""
+  array.each_index do |x|
+    if x != 0 && x%3 == 0
+      number_reversed += ","
+    end
+    number_reversed += array[x] 
+  end
+  p number_reversed.reverse
+end
+
+
 
 # 3. Reflection
 =begin
@@ -88,16 +98,18 @@ end
 
 	One thing I wasn't sure about is whether I should be working to the test or whether I should be working to a full solution. Since I knew the tests were only looking up to a certain number, I worked towards that goal which made it easier. To make the full solution I would have needed to turn the number/string into an array and inserted commas at certain points, but didn't know much about the methods I could use to do that. 
 
+	When I refactored for maybe the third time I realized my solution wouldn't work for any size number, so I redid the whole thing using an array, which worked much better and is a better overall solution I think. 
+
 - Was your pseudocode effective in helping you build a successful initial solution?
-	Yes, it worked even thought I ended up straying a little from the way I imagined it originally. I learned a lot from pairing this week about how small the problems needed to be broken down, which made it much easier to write useful pseudocode. 
+	Yes, it worked even thought I ended up strayingfrom the way I imagined it. I learned a lot from pairing this week about how small the problems needed to be broken down, which made it much easier to write useful pseudocode. 
 
 - What new Ruby method(s) did you use when refactoring your solution? Describe your experience of using the Ruby documentation to implement it/them (any difficulties, etc.). Did it/they significantly change the way your code works? If so, how?
 	When I refactored the first time I made some smaller changes, like grouping the string sizes instead of calling them out individually to keep it DRY. I ended up playing around in irb a little to make sure I knew how the negative numbers would work to break the strings into chunks. When I researched through the ruby docs again, I ended up finding a couple I might be able to use. I thought about using something like partition, but it looked like I'd need to use a regexp to make it work the way I wanted. I didn't find anything to make it simpler overall, but did end up finding insert. This at least ended up making the method easier to read and the comma additions easier. It didn't really change the way my code worked. Overall, I have a lot of issues searching through the ruby docs. I don't really know where in the files to start searching or how exactly I should be going through them. My best bet at this point is to use a bunch in irb to see how they work when I have a question. 
 
 - How did you initially iterate through the data structure?
-	I didn't really iterate, just went through each option methodically and then broke it into chunks and added the commas. I tried to find a good way without using regular expressions, but didn't find anything great that would split the strings into arrays. 
+	I didn't really iterate at first since I used a string, just went through each option methodically and then broke it into chunks and added the commas. I tried to find a good way without using regular expressions, but didn't find anything great that would split the strings into arrays of 3 numbers each. Eventually I realized I could just change the number to individual strings of one character each to make it more manageable. 
 
 - Do you feel your refactored solution is more readable than your initial solution? Why?
-	Yes, I think it's definitely more readable since there's less to run through and less steps overall. The insert method definitely cleaned up a lot of the clutter in my previous attempts
+	Yes, I think it's definitely more readable since there's less to run through and way less steps overall. Using an array instead of individual cases based on string length made it much easier. I also tried to rename variables to make it more clear what each one was. 
 
 =end
