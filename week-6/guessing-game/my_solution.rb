@@ -63,26 +63,25 @@ end
 
 class GuessingGame
   def initialize(answer)
+    # Your initialization code goes here
     @answer = answer
-    @solved = false
   end
 
   def guess(guess)
+    @guess = guess
     if @answer == guess
-      @solved = true
       :correct
     elsif guess >= @answer
-      @solved = false
       :high
     else
-      @solved = false
       :low
     end
   end
 
   def solved?
-    @solved
+    p @answer == @guess
   end
+
 end
 
 
