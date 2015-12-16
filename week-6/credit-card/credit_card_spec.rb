@@ -30,4 +30,8 @@ describe CreditCard do
       expect(card.check_card).to eq false
     end
   end
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> master

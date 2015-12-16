@@ -1,8 +1,8 @@
 # Class Warfare, Validate a Credit Card Number
 
 
-# I worked on this challenge [by myself, with: ].
-# I spent [#] hours on this challenge.
+# I worked on this challenge with Andrew Kim.
+# I spent 2 hours on this challenge.
 
 # Pseudocode
 
@@ -26,12 +26,6 @@
   # return true
 # ELSE false
 #end
-
-
-# Initial Solution
-
-# Don't forget to check on initialization for a card length
-# of exactly 16 digits
 
 =begin
 class CreditCard
@@ -136,9 +130,3 @@ end
   Other more specific concepts I worked on a little were creating one liners for some code (like raising the argument error in the initialize method), using the ternary operator (? :), and chaining methods together so the code doesn't look as broken up and confusing. 
 
 =end
-
-
-
-
-
-
