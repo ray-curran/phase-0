@@ -1,13 +1,13 @@
-Query 1: SELECT * FROM states; 
-Query 2: SELECT * FROM regions;
-Query 3: SELECT state_name, population FROM states;
-Query 4: SELECT state_name, population FROM states ORDER BY population DESC;
-Query 5: SELECT state_name FROM states WHERE region_id=7;
-Query 6: SELECT state_name, population_density FROM states WHERE population_density > 50 ORDER BY population_density;
-Query 7: SELECT state_name FROM states WHERE population > 1000000 AND population < 1500000;
-Query 8: SELECT state_name, region_id FROM states ORDER BY region_id;
-Query 9: SELECT region_name FROM regions WHERE region_name LIKE "%central%";
-Query 10: SELECT regions.region_name, states.state_name FROM states INNER JOIN regions ON states.region_id=regions.id
+* Query 1: SELECT * FROM states; 
+* Query 2: SELECT * FROM regions;
+* Query 3: SELECT state_name, population FROM states;
+* Query 4: SELECT state_name, population FROM states ORDER BY population DESC;
+* Query 5: SELECT state_name FROM states WHERE region_id=7;
+* Query 6: SELECT state_name, population_density FROM states WHERE population_density > 50 ORDER BY population_density;
+* Query 7: SELECT state_name FROM states WHERE population > 1000000 AND population < 1500000;
+* Query 8: SELECT state_name, region_id FROM states ORDER BY region_id;
+* Query 9: SELECT region_name FROM regions WHERE region_name LIKE "%central%";
+* Query 10: SELECT regions.region_name, states.state_name FROM states INNER JOIN regions ON states.region_id=regions.id
    ...> ORDER BY regions.id;  
 
 
