@@ -1,4 +1,4 @@
-![One-to-One Schema] (imgs/movies-schema.png)  
+![One-to-One Schema] (imgs/movies_schema.png)  
 
 This schema is a one-to-one example because each movie may not yet know what the box office gains are or how many tickets are sold on opening weekend. If the movie is coming out in the future these would just be empty in the overall movie table, so you may want to keep them in a separate table.   
 
