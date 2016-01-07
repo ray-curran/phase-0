@@ -69,3 +69,37 @@ car.add_pizza('cheese')
 car.remove_pizza(1)
 
 
+=begin
+
+Reflection
+
+- What concepts did you review or learn in this challenge?
+  Overall it was good to get back into Ruby a little bit, as I am starting to get a little confused between Javascript
+  and Ruby. It is good to be working on both during the same week. 
+
+- What is still confusing to you about Ruby?
+  Nothing is really too confusing right now except where to use each syntax between JS and ruby. 
+
+- What are you going to study to get more prepared for Phase 1?
+  I'm going to keep working on these ruby reviews and try to use some of the other ruby online challenges to make sure
+  I know what I'm doing going into phase 1.
+
+=end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
